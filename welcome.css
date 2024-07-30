@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav .logo{
+    width: 90px;
+    object-fit: contain;
+    margin: 10px 20px;
+}
+nav .profile{
+    width: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+}
+body{
+    background-color: #222;
+}
+.banner{
+    background-image: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)),url(Assets/jpg/Banner/onepiece\ banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 80vh;
+}
+.banner .banner-content{
+    padding: 10% 7%;
+}
+.banner .banner-content .banner-title h1{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.banner .banner-content .banner-title p{
+    color: aliceblue;
+    font-size: 0.9rem;
+    max-width: 600px;
+    padding: 1% 0% ;
+    
+}
+.banner .banner-content .banner-title img{
+    height: 150px;
+    width: 600px;
+}
+.banner .banner-content .banner-title h3{
+    padding: 1% 0px;
+}
+.banner .banner-content .banner-buttons .play{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
+    font-size: 1.3rem;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.banner .banner-content .banner-buttons .play:hover{
+    background-color: #fff;
+    color: #333;
+}
+.banner .banner-content .banner-buttons .Info{
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 1% 2%;
+    font-size: 1.3rem;
+    margin-right: 5px;
+    transition: 0.5s;
+}
+.banner .banner-content .banner-buttons .Info:hover{
+    background-color: #333;
+    color: #fff;
+}
+section .posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin:1% 2%; 
+}
+section .posters::-webkit-scrollbar{
+    display: none;
+}
+section .posters .poster-title .poster{
+    height: 180px;
+    margin: 0% 5px;
+    transition: transform 420ms;
+}
+section .posters .poster:hover{
+    transform: scale(1.09);
+}
+section h1{
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding: 1% 2%;
+}
+section .posters .poster-title h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #ffff;
+    text-align: center;
+
+}
+
+footer{
+    padding: 50px 15% 10px;
+    border-top: 5px solid #333;
+    color: #666;
+}
+footer h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px
+}
+footer .column{
+    margin: 10px 50px;
+}
+footer .row{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+footer .column a{
+    text-decoration: none;
+    color: #666;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 10px 0px;
+}
+.language{
+    background: transparent;
+    border: 2px solid #666;
+    font-size: 1rem;
+    color: #666;
+    border-radius: 3px;
+    margin: 10px 50px;
+    padding: 4px;
+
+}
+footer h3{
+    margin: 10px 50px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    padding: 4px;
+
+}

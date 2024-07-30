@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: linear-gradient(90deg,#181818 05%,hsla(0,0%,9%,.98) 10%,hsla(0,0%,9%,.97) 15%,hsla(0,0%,9%,.95) 20%,hsla(0,0%,9%,.94) 25%,hsla(0,0%,9%,.92) 30%,hsla(0,0%,9%,.9) 35%,hsla(0,0%,9%,.87) 40%,hsla(0,0%,9%,.82) 45%,hsla(0,0%,9%,.75) 50%,hsla(0,0%,9%,.63) 55%,hsla(0,0%,9%,.45) 60%,hsla(0,0%,9%,.27) 65%,hsla(0,0%,9%,.15) 70%,hsla(0,0%,9%,.08) 75%,hsla(0,0%,9%,.03) 80%,hsla(0,0%,9%,0)),url(Assets/jpg/Banner/pokemon.jpg);
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 105vh;
+    background-size: cover;
+}
+body{
+    background-color: #222;
+}
+.banner .banner-content{
+    padding: 16% 5%;
+}
+.banner .banner-content .banner-buttons .play{
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    padding: 1% 2%;
+    border: none;
+    font-size: 1.0rem;
+    transition: 0.5s;
+}
+.banner .banner-content .banner-buttons .play:hover{
+    background-color: #fff;
+    color: #222;
+}
+.banner .banner-content .banner-buttons .Info{
+    border-radius: 5px;
+    background-color: #fff;
+    color: #222;
+    padding: 1% 2%;
+    border: none;
+    font-size: 1.0rem;
+    transition: 0.5s;
+}
+.banner .banner-content .banner-buttons .Info:hover{
+    background-color: #222;
+    color: #fff;
+}
+.banner .banner-content .banner-title h1{
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.banner .banner-content .banner-title img{
+    height: 100px;
+    width: 600px;
+}
+.banner .banner-content .banner-title h3{
+    font-weight: 200;
+}
+.banner .banner-content .banner-title p{
+    color: #fff;
+    padding: 2% 0%;
+    max-width: 600px;
+    font-size: 1rem;
+}
+.container{
+    margin-bottom: 32px;
+    margin-top: -64px;
+    position: relative;
+}
+.container img{
+    height: 70px;
+    margin-left: 2px;
+    padding: 0;
+}
+.container .container-content{
+    height: 60px;
+}
+.container .container-content{ 
+    justify-content: space-between;
+    background: #333;
+    display: flex;
+    margin: 20px 70px;
+    padding: 8px;
+    align-items: center;
+}
+.container .container-content h4{
+    color: #fff;
+    padding-top: 6px;
+    margin-right: 80%;
+    font-size: 1.0rem;
+    font-weight: 200;
+}
+ .container-button button{
+    border: none;
+    border-radius: 5px;
+    background-color: #E50914;
+    color: #fff;
+    margin-top: 1px;
+    padding: 9px 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.container-button button:hover{
+    background-color: #d20a14;
+}
+.separator{
+    background: linear-gradient(90deg,#777 0,rgba(51,51,51,.5) 50%,#777);
+    height: 1px;
+    margin: 0px 70px 18px 70px;
+}
+.about h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+.about .text p{
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.items{
+    display: flex;
+    margin: 60px 0px 0px 70px;
+}
+.items .header{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 34px;
+}
+.items .header-content{
+    color: #a3a3a3;
+    border-left: 1px solid #a3a3a3;
+    margin-left: 9px;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.trailers{
+    display: flex;
+}
+.trailers .trailer-1{
+    margin:50px 0px 50px 70px;
+}
+.trailers .trailer-1 h3{
+    text-align: left;
+    color: #fff;
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.trailers .trailer-2{
+    margin: 50px 70px 50px 20px;
+}
+.trailers .trailer-2 h3{
+    text-align: left;
+    color: #fff;
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 1rem;
+}
+nav .logo{
+    width: 90px;
+    object-fit: contain;
+    margin: 10px 20px;
+} 
+nav{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+}
+nav .right{
+    display: flex;
+}
+nav .right h4{
+    color: #fff;
+    font-weight: 200;
+    font-size: 0.9rem;
+    margin: 20px 10px 0px 0px;
+}
+nav .right .join{
+    margin: 10px 10px 10px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E50914;
+    color: #fff;
+    padding: 9px 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+nav .right .signin{
+    margin: 10px 50px 10px 0px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color:transparent;
+    color: #fff;
+    padding: 9px 20px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+footer{
+    padding: 50px 15% 10px;
+    border-top: 5px solid #333;
+    color: #666;
+}
+footer h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px
+}
+footer .column{
+    margin: 10px 50px;
+}
+footer .row{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+footer .column a{
+    text-decoration: none;
+    color: #666;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 10px 0px;
+}
+.language{
+    background: transparent;
+    border: 2px solid #666;
+    font-size: 1rem;
+    color: #666;
+    border-radius: 3px;
+    margin: 10px 50px;
+    padding: 4px;
+
+}
+footer h3{
+    margin: 10px 50px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+i{
+    padding: 4px;
+
+}
